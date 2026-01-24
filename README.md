@@ -69,17 +69,24 @@ Dashboard Highlights:
 📄 Dashboard Export: dashboards/powerbi_dashboard.pdf
 
 🖼 Dashboard Screenshots
-Key snapshots from the Power BI dashboard are shown below for quick insight review:
-📌 Overall Sales Performance
- 
-Overall Sales Performance
-📌 Category & Product Analysis
- 
-Category Analysis
-📌 Regional & Customer Insights
- 
-Regional Analysis
-📢 The full interactive experience is available in the Power BI file. These images highlight the most important insights.
+Key snapshots from the Power BI dashboards are shown below to provide a quick overview of insights.
+
+📌 Executive Summary – Overall Performance
+![Executive Summary](images/dashboard_overview.png)
+
+📌 Sales Trend Analysis
+![Sales Trend Analysis](images/sales_trend_analysis.png)
+
+📌 Category & Product Performance
+![Category Performance](images/category_performance.png)
+
+📌 Customer Analysis
+![Customer Analysis](images/customer_analysis.png)
+
+📌 Regional Analysis
+![Regional Analysis](images/regional_analysis.png)
+
+> 📢 *The full interactive experience is available in the Power BI file. These screenshots highlight the most important analytical insights.*
 
 📈 Key Business Insights
 •	A small percentage of customers contribute a large share of total revenue
