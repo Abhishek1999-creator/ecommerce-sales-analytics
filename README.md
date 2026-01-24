@@ -84,7 +84,7 @@ Key snapshots from the Power BI dashboards are shown below to provide a quick ov
 ![Customer Analysis](images/customer_analysis.png)
 
 📌 Regional Analysis
-![Regional Analysis](images/regional_analysis.png)
+![Regional Analysis](images/shipping_performance_analysis.png)
 
 > 📢 *The full interactive experience is available in the Power BI file. These screenshots highlight the most important analytical insights.*
 
