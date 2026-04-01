@@ -1,142 +1,175 @@
-# ecommerce-sales-analytics
-End-to-end E-Commerce Sales Analytics using Python, SQL, and Power BI
-E-Commerce Sales Performance Analysis
+🛒 E-Commerce Sales Analytics  
+End-to-End Data Analytics Project using Python, SQL & Power BI
+
 📌 Project Overview
-This project analyzes e-commerce sales data to uncover actionable business insights related to revenue, profitability, customer behavior, and product performance. It is built as an end-to-end Data Analytics portfolio project, demonstrating practical skills in Python (data cleaning), SQL (manager-level analysis), and Power BI (dashboarding & storytelling).
-The project simulates a real-world business scenario where raw transactional data is transformed into meaningful insights to support data-driven decision-making.
+This project focuses on analyzing e-commerce sales data to uncover actionable business insights related to revenue, profitability, customer behavior, and product performance.
+
+It is designed as an end-to-end data analytics project demonstrating the complete workflow:
+Raw Data → Data Cleaning → SQL Analysis → Dashboarding → Business Insights
+
+The goal is to simulate a real-world business scenario where data is used to support "data-driven decision-making".
+
 
 🎯 Business Problem Statement
-E-commerce companies generate large volumes of transactional data, but without proper analysis, valuable insights remain hidden. This project aims to: - Identify key revenue and profit drivers - Understand customer purchasing behavior - Evaluate product and category-level performance - Track sales trends over time - Support strategic business decisions using data
-🛠 Tools & Technologies Used
-•	Python: Pandas, NumPy (Data Cleaning & Preprocessing)
-•	SQL: Joins, Subqueries, Aggregations, CTEs, Window Functions
-•	Power BI: Interactive Dashboards & KPI Visualization
-•	GitHub: Version Control & Project Documentation
+E-commerce businesses generate large volumes of transactional data, but without proper analysis, critical insights remain hidden.
+
+This project aims to:
+- Identify key revenue and profit drivers  
+- Understand customer purchasing behavior  
+- Analyze product and category performance  
+- Track sales trends over time  
+- Support strategic business decisions using data  
+
+
+
+🛠️ Tools & Technologies
+- Python (Pandas, NumPy) → Data Cleaning & Preprocessing  
+- SQL → Data Analysis (Joins, CTEs, Window Functions)  
+- Power BI → Dashboarding & Data Visualization  
+- GitHub → Version Control & Documentation  
+
+---
 
 📂 Dataset Description
-•	Raw e-commerce transactional dataset
-•	Includes:
-o	Order details
-o	Customer information
-o	Product categories and sub-categories
-o	Sales, discount, and profit values
-o	Order and shipping dates
+The dataset contains e-commerce transactional data, including:
 
-After cleaning, the dataset was exported as a clean CSV file and used for SQL analysis and dashboard creation.
+- Order details  
+- Customer information  
+- Product categories & sub-categories  
+- Sales, discount, and profit metrics  
+- Order and shipping dates  
+
+After preprocessing, the dataset was exported as a clean CSV file for further analysis.
 
 🧹 Data Cleaning (Python)
 Data cleaning was performed using Python to ensure high-quality, analysis-ready data.
-Key Cleaning Steps:
-•	Removed duplicate records
-•	Handled missing and null values
-•	Standardized date formats
-•	Corrected data types (numeric, date, categorical)
-•	Removed irrelevant columns
-•	Created derived columns for analytical use
-📁 Output File: data/ecommerce_sales_cleaned.csv
 
-🗄 SQL Analysis (Manager-Level Queries)
-A comprehensive set of 25+ SQL queries was written to answer real business questions commonly asked by managers and stakeholders.
-SQL Concepts Used:
-•	INNER JOIN, LEFT JOIN
-•	GROUP BY & HAVING
-•	Subqueries
-•	Common Table Expressions (CTEs)
-•	Window Functions (RANK, DENSE_RANK, ROW_NUMBER, RUNNING TOTAL)
-Sample Business Questions Answered:
-•	What are the monthly and yearly sales trends?
-•	Which customers generate the highest lifetime value?
-•	Which products and categories are the most profitable?
-•	Which regions have high sales but low profitability?
-•	What is the revenue contribution of the top 10 customers?
-📁 SQL File: sql/ecommerce_analysis_queries.sql
+ Key Steps:
+- Removed duplicate records  
+- Handled missing values  
+- Standardized date formats  
+- Corrected data types  
+- Removed irrelevant columns  
+- Created derived columns for analysis  
 
-📌 Key SQL Skills Demonstrated
-•	Translating business questions into SQL logic
-•	Customer lifetime value and ranking analysis
-•	Advanced analytics using window functions
-•	Performance-focused queries using CTEs
-•	Business-oriented data aggregation
+📁 **Output File:** `data/ecommerce_sales_cleaned.csv`
 
-📊 Power BI Dashboard
-An interactive Power BI dashboard was built using the cleaned dataset to visualize key performance indicators and trends.
-Dashboard Highlights:
-•	Total Sales, Profit, Orders, and Customers
-•	Sales & profit trends over time
-•	Category and sub-category performance
-•	Regional sales analysis
-•	Top customers and products
-📄 Dashboard Export: dashboards/powerbi_dashboard.pdf
 
-🖼 Dashboard Screenshots
-Key snapshots from the Power BI dashboards are shown below to provide a quick overview of insights.
 
-📌 Executive Summary – Overall Performance
+🗄️ SQL Analysis (Business-Focused Queries)
+Over 25+ SQL queries were written to solve real-world business problems.
+
+SQL Skills Demonstrated:
+- Joins (INNER, LEFT)  
+- Aggregations (GROUP BY, HAVING)  
+- Subqueries  
+- Common Table Expressions (CTEs)  
+- Window Functions (RANK, DENSE_RANK, ROW_NUMBER, Running Total)  
+
+ Key Business Questions Answered:
+- What are the monthly and yearly sales trends?  
+- Which customers generate the highest lifetime value?  
+- Which products and categories are most profitable?  
+- Which regions have high sales but low profitability?  
+- What percentage of revenue comes from top customers?  
+
+📁 SQL File: `sql/ecommerce_analysis_queries.sql`
+
+
+ 📊 Power BI Dashboard
+An interactive Power BI dashboard was built to visualize KPIs and business insights.
+
+ Dashboard Highlights:
+- Total Sales, Profit, Orders, Customers  
+- Sales & profit trends over time  
+- Category and product performance  
+- Regional sales analysis  
+- Top customers and revenue contribution  
+
+📄 Dashboard File: `dashboards/powerbi_dashboard.pdf`
+
+
+
+🖼️ Dashboard Preview
+
+ 📌 Executive Summary
 ![Executive Summary](images/dashboard_overview.png)
 
-📌 Sales Trend Analysis
-![Sales Trend Analysis](images/sales_trend_analysis.png)
+ 📌 Sales Trend Analysis
+![Sales Trend](images/sales_trend_analysis.png)
 
-📌 Category & Product Performance
+ 📌 Category Performance
 ![Category Performance](images/category_performance.png)
 
-📌 Customer Analysis
+ 📌 Customer Insights
 ![Customer Analysis](images/customer_analysis.png)
 
-📌 Shipping Performance Analysis
-![Shipping_Performance Analysis](images/shipping_performance_analysis.png)
+ 📌 Shipping Analysis
+ [Shipping Analysis](images/shipping_performance_analysis.png)
 
-> 📢 *The full interactive experience is available in the Power BI file. These screenshots highlight the most important analytical insights.*
+ 📢 For full interactivity, please explore the Power BI dashboard file.
 
-📈 Key Business Insights
-•	A small percentage of customers contribute a large share of total revenue
-•	Some product categories generate high sales but lower profit margins
-•	Strong seasonal trends significantly impact sales performance
-•	Certain regions underperform in profitability despite high sales
-•	Discount levels have a direct impact on overall profit margins
-________________________________________
-✅ Business Recommendations
-•	Focus on retaining high-value customers through loyalty programs
-•	Optimize discount strategies to protect profit margins
-•	Re-evaluate pricing for low-margin, high-volume products
-•	Design region-specific marketing strategies for underperforming areas
-________________________________________
-📁 Project Structure
+
+
+ 📈 Key Insights
+- Top 20% of customers contribute a major share of total revenue  
+- Some high-sales products generate low profit margins  
+- Strong seasonal patterns impact sales performance  
+- Certain regions have high sales but poor profitability  
+- Higher discount levels negatively impact profit margins  
+
+
+
+ ✅ Business Recommendations
+- Focus on retaining high-value customers through loyalty programs  
+- Optimize discount strategies to improve profit margins  
+- Re-evaluate pricing for low-margin products  
+- Improve performance in underperforming regions with targeted strategies  
+
+---
+
+ 📁 Project Structure
+
 Ecommerce-Sales-Analytics
 │
 ├── data
-│   ├── raw_data.csv
-│   └── ecommerce_sales_cleaned.csv
+│ ├── raw_data.csv
+│ └── ecommerce_sales_cleaned.csv
 │
 ├── notebooks
-│   └── data_cleaning.ipynb
+│ └── data_cleaning.ipynb
 │
 ├── sql
-│   └── ecommerce_analysis_queries.sql
+│ └── ecommerce_analysis_queries.sql
 │
 ├── dashboards
-│   └── powerbi_dashboard.pdf
+│ └── powerbi_dashboard.pdf
 │
 ├── images
-│   ├── dashboard_overview.png
-│   ├── category_performance.png
-│   └── regional_customer_analysis.png
+│ ├── dashboard_overview.png
+│ ├── category_performance.png
+│ └── shipping_performance_analysis.png
 │
 ├── README.md
-________________________________________
-## 🚀 Project Outcome
-This project demonstrates a complete data analytics workflow: Raw data → Data cleaning → SQL-driven insights → Interactive business dashboards.
-It reflects real-world analytics tasks and is suitable for:
-- Data Analyst interviews
-- Fresher / Entry-level analytics roles
-- Portfolio and resume projects
 
-________________________________________
-📬 Contact
-Author: Abhishek Biswas
-Role: Aspiring Data Analyst
+
+
+
+ 🚀 Project Outcome
+This project demonstrates the complete data analytics lifecycle:
+- Data Cleaning using Python  
+- Business Analysis using SQL  
+- Visualization using Power BI  
+
+It reflects real-world analytical thinking and is suitable for:
+- Data Analyst roles  
+- Entry-level analytics positions  
+- Portfolio showcase  
+
+---
+
+ 📬 Contact
+Abhishek Biswas  
+Aspiring Data Analyst  
+
 Feel free to connect or provide feedback on this project.
-
-
-
-
